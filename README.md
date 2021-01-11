@@ -1,5 +1,4 @@
-# IntelligentSystemsNLP
-This repository is part of a project for a master's degree.
+#Tweet Emotion Analysis.
 
 The code in the R file should be run in R studio. The libraries loaded in the code should have been previously installed in R. 
 The data sets will be loaded from the URL of this repository. It is already set in the code. If you wish to load your own data set you should indicate the path for your files when loading the documents. 
