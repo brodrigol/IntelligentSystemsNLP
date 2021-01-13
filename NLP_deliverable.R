@@ -138,7 +138,7 @@ prediction <- function(tweet_test) {
 #Save the predicted class vs the real class.
 Compare=as.data.frame(test$Sentiment)
 for (l in 1:nrow(test)) {
-  Compare[l,2]=names(which.max(prediction(test[l,1])))
+  Compare[l,2]=prediction(test[l,1])
 }
 
 #Return the confusion matrix and the metrics for the model when using the test-set. 
